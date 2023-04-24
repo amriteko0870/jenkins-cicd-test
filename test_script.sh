@@ -11,5 +11,5 @@ fi
 source venv/bin/activate
 cd test_cicd
 pip install -r requirements.txt
-kill $(lsof -t -i:8000)
+fuser -k 8000/tcp
 # mkdir test_folder_new
