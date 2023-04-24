@@ -13,7 +13,7 @@ pipeline{
             steps{
                 sh """
                     cd test_cicd
-                    JENKINS_NODE_COOKIE=dontKillMe nohup python3 manage.py runserver 0.0.0.0:8000
+                    JENKINS_NODE_COOKIE=dontKillMe nohup python3 manage.py runserver 0.0.0.0:8000 &
                    """
             }
         } 
