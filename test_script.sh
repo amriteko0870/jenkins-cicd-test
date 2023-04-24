@@ -12,5 +12,5 @@ source venv/bin/activate
 cd test_cicd
 pip install -r requirements.txt
 kill -9 $(lsof -t -i:8000)
-py_script = `./python_script.sh`
+$py_script = `./python_script.sh`
 # mkdir test_folder_new
