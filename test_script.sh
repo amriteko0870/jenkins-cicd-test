@@ -1,5 +1,5 @@
 sudo su
-if [-d "venv"]
+if [ -d "venv" ]
 then
     echo "Venv already exist"
 else
@@ -11,5 +11,5 @@ fi
 . ./venv/bin/activate
 cd test_cicd
 pip install -r requirements.txt
-fuser -k 8000/tcp
+# fuser -k 8000/tcp
 # mkdir test_folder_new
