@@ -6,4 +6,5 @@ else
     pip install virtualenv
     python3 -m virtualenv venv
     echo "virtual environment created"
+fi
 # mkdir test_folder_new
