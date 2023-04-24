@@ -1,2 +1,2 @@
 sudo su
-mkdir test_folder
+mkdir test_folder_new
