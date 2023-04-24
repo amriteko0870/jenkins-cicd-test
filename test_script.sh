@@ -8,7 +8,7 @@ else
     echo "virtual environment created"
 fi
 
-source venv/bin/activate
+. ./venv/bin/activate
 cd test_cicd
 pip install -r requirements.txt
 fuser -k 8000/tcp
